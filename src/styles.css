@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.amount {
+  color: #004b8d;
+  margin-left: 8px;
+}
+
+.user-form {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  justify-content: space-between;
+}
+
+.user-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.user-form input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pay-btn {
+  width: 100%;
+  background: #004b8d;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 0 16px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pay-btn:hover {
+  background: #003a6c;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+input {
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid gray !important;
+  margin: 8px 16px;
+  padding-top: 20px;
+}
+
+.send-btn {
+  width: 30%;
+  background: white;
+  border: 1px solid #004b8d;
+  border-radius: 10px;
+  padding: 0 16px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #004b8d;
+  cursor: pointer;
+  font-size: 16px;
+}
